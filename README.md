@@ -65,8 +65,11 @@ Unix implementation syscall table: [https://github.com/westerndigitalcorporation
 - `exit` syscall is 93, `write` syscall is 64
 
 - to implement a syscall:
+  
       - set a7 to the syscall number
+  
       - set a0 to the arguments for that syscall
+  
       - invoke the ecall instruction to call the kernel
   
 - No risc chips ? use qemu riscv for testing
