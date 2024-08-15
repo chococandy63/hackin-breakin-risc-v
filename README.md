@@ -35,9 +35,11 @@ x0-x32 + pc
 
 ## RISC V instruction set
 
-- Three register instruction structure
-
+ Three register instruction structure
+ 
+```
 <operation> <dst>,<src1>,<src2>
+```
 
 - addi a2,x0,64
 
